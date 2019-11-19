@@ -15,13 +15,12 @@ class ViewController: UIViewController {
     var portraitChartView: HIChartView!
     
     var arrGraphData = ["2019-11-01", "2019-11-02", "2019-11-03", "2019-11-04", "2019-11-05", "2019-11-06", "2019-11-07", "2019-11-08"]
-    var arrActualData = [80, 80, 80, 80, 45, 30, 80, 10] as [Any]
-    var arrGoalData = [10, 30, 80, 80, 8, 80, 2, 89] as [Any]
+    var arrActualData = [NSNull(), 80, NSNull(), NSNull(), 45, 30, NSNull(), 10] as [Any]
+    var arrGoalData = [10, 30, NSNull(), NSNull(), 8, 80, NSNull(), 89] as [Any]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
